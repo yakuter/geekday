@@ -15,6 +15,7 @@ func main() {
 
 	args := os.Args[1:]
 
+	// TODO : Burayı daha sonra refactor et.
 	for i := range args {
 		file.WriteString(args[i] + "\n")
 	}
